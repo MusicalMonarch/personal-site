@@ -1,0 +1,114 @@
+:root {
+  --color-primary: #52999d;
+  --color-gradient-start: #52999d;
+  --color-gradient-stop: #52999d;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  font-size: 15px;
+  line-height: 1.6em;
+  letter-spacing: 0.02em;
+  color: #808291;
+  background-color: #222831;
+}
+#top-header{
+  background-color:#222831;
+}
+
+.h1, h1,
+.h2, h2,
+.h3, h3,
+.h4, h4,
+.h5, h5,
+.h6, h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  color: #181b31;
+}
+
+.h1,
+h1 {
+  font-size: 55px;
+  line-height: 1.111em;
+}
+
+.h2,
+h2 {
+  font-size: 36px;
+  line-height: 1.25em;
+}
+
+.h3,
+h3 {
+  font-size: 30px;
+  line-height: 1.25em;
+}
+
+.h4,
+h4 {
+  font-size: 22px;
+  line-height: 1.5em;
+}
+
+.h5,
+h5 {
+  font-size: 19px;
+  line-height: 1.5em;
+}
+
+.h6,
+h6 {
+  font-size: 17px;
+  line-height: 1.5em;
+}
+
+.main-nav > li > a {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-style: normal;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  color: #eeeeee;
+  text-transform: uppercase;
+}
+
+.main-nav > li > a .link-ext {
+  background: #52999d;
+}
+
+.main-nav > li.is-active > a,
+.main-nav > li.current-menu-item > a,
+.main-nav > li:hover > a,
+.main-nav > li > a:hover {
+  color: #52999d;
+}
+
+@media (min-width: 1200px) {
+  .main-header .is-stuck {
+    background: #222831 !important;
+  }
+  .mainbar-wrap.is-stuck .social-icon a,
+  .mainbar-wrap.is-stuck .header-module .ld-module-trigger,
+  .mainbar-wrap.is-stuck .main-nav > li > a,
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    color: #eeeeee !important;
+  }
+  .mainbar-wrap.is-stuck .ld-module-search-visible-form .ld-search-form input {
+    border-color: #eeeeee !important;
+  }
+}
+.btn {
+	background-color:#52999d;
+	border-radius:20px;
+	display:inline-block;
+	cursor:pointer;
+	color:#eeeeee;
+	font-size:14px;
+	padding:10px 16px;
+	text-decoration:none;
+	text-shadow:0px 1px 0px #1e5861;
+}
+.btn:hover {
+	background-color:#0d2d42;
+}
